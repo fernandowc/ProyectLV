@@ -1,0 +1,42 @@
+body
+{
+    background: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menuPanel
+{
+    list-style: none;
+    line-height: 42px;
+    margin: 2em auto;
+    /* outline: 1px solid red; */
+    padding-left: 0;
+    width: 15em;
+}
+
+.menuPanel a
+{
+    color: rgb(53, 53, 53);
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.menuPanel li
+{
+    box-shadow: 3px 0 rgba(26, 25, 25, 0.2)inset;
+    margin-bottom: 5px;
+    padding-left: 1.5em;
+    /* outline: 1px solid green; */
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+    transition: all .8s;
+}
+
+.menuPanel li:hover
+{
+    box-shadow: 15em 0 rgba(5, 5, 5, 0.2) inset;
+}
